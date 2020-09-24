@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(37, 19, 32); 
+}
+
+header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 34px;
+    color:white;
+    text-align: center;
+    padding: 24px 0;
+}
+.main-frame{
+    width: 400px;
+    height: 500px;
+    margin: 3% auto;
+    /* background-color: rgb(185, 8, 126); */
+    position: relative;
+    text-align: center;
+}
+
+#digital-clock{
+    position: absolute;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 64px;
+    top:165px;
+    left:117px;
+    text-align: center;
+}
+
+.button{
+    margin:0 10px;
+    padding: 15px 20px;
+    background-color: #dc3545;
+    color:white;
+    border-color:#dc3545;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size : 20px;
+}
+.button:focus{
+    box-shadow: 0 0 0 0.2rem rgba(220,53,69,.5);
+}
